@@ -23,3 +23,8 @@ Se conseguir síncrona/assíncrona:
 - Redis / RabbitMQ / **Kafka**;
 
 - Nubank, Uber, Paypal, Netflix utilizam **Kafka**;
+
+## O que podemos estudar
+- COnsumer demorando para subir;
+- Frameworks específicos para microservices (Molecular / Nest);
+- _expectResponse_
