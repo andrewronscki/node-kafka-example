@@ -30,7 +30,7 @@ app.use((req, res, next) => {
   req.producer = producer;
 
   return next();
-})
+});
 
 /**
  * Cadastra as rotas da aplicação
