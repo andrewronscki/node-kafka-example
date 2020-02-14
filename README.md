@@ -5,15 +5,13 @@
 
 ## Aplicações
 
-- API principal (Station);
+- API principal;
 - Geração de certificado;
 
 ## Fluxo
 
 - API principal envia uma mensagem pro serviço de certificado para gerar o certificado;
-- Micro-serviço de certificado devolve uma resposa (síncrona/assíncrona);
-
-Se conseguir síncrona/assíncrona:
+- Micro-serviço de certificado devolve uma resposa;
 
 - Receber uma resposta assíncrona de quando o e-mail com o certificado foi enviado;
 
@@ -25,6 +23,6 @@ Se conseguir síncrona/assíncrona:
 - Nubank, Uber, Paypal, Netflix utilizam **Kafka**;
 
 ## O que podemos estudar
-- COnsumer demorando para subir;
+- Consumer demorando para subir;
 - Frameworks específicos para microservices (Molecular / Nest);
 - _expectResponse_
